@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head><title>test crossdev: RequireJs, combined/almond</title></head>
+  <body>Check console!</body>
+
+  <script src="../../bower_components/requirejs/require.js"></script>
+  <script>
+     require.config ({
+      baseUrl: '../../build/almond',
+      paths: {
+        lodash: "../../bower_components/lodash/dist/lodash.min",
+        eventemitter2: "../../bower_components/eventemitter2/lib/eventemitter2"
+      }
+    });
+
+    require(["Observable" ], function(Observable){
+      console.log(Observable);
+      console.log(Observable.EventEmitter);
+    });
+
+  </script>
+</html>

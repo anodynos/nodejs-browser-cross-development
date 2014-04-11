@@ -1,0 +1,13 @@
+{
+  "name": "crossdev",
+  "version": "0.0.1",
+  "devDependencies": {
+    "urequire": "*",
+    "grunt": "*",
+    "grunt-urequire": "*"
+  },
+  "dependencies": {
+    "lodash": "*",
+    "eventemitter2": "*"
+  }
+}

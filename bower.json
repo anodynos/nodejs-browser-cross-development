@@ -1,0 +1,9 @@
+{
+  "name": "crossdev",
+  "version": "0.0.1",
+  "dependencies": {
+    "eventemitter2": "*",
+    "lodash": "*",
+    "requirejs": "*"
+  }
+}
